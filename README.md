@@ -1,3 +1,3 @@
 # bash
  
- some bash script that i've written
+ some bash scripts that I've written

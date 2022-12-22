@@ -1,3 +1,8 @@
 #!/bin/bash
+# compiles and runs c++ files
 
-g++ -o ../output/a ` ls -lt | tail -n +2 | awk 'FNR <= 1 {print $9}' `; ../output/a
+OF=../output/run
+IF=`ls -lt *cpp | awk 'FNR <= 1 {print $9}'` 
+echo "Running ${IF} "
+
+g++ -o $OF $IF; $OF
