@@ -1,0 +1,7 @@
+#!/bin/bash
+
+BCL=~/codes/scripts/bash/.bashrc
+
+cp ~/.bashrc $BCL
+
+echo ".bashrc was copied to ${BCL}"
