@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ICL=~/codes/scripts/bash/i3
+
+cp ~/.config/i3/config $ICL
+
+echo "i3conf was copied to ${ICL}"
