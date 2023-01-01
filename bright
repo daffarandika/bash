@@ -1,0 +1,2 @@
+BR=`brightnessctl | awk 'FNR == 2 {print $4}'`
+echo ${BR:1:3}
