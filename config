@@ -42,7 +42,7 @@ separator=true
 interval=30
 
 [battery]
-command=$SCRIPT_DIR/battery-poly/battery-poly
+command=$SCRIPT_DIR/batt
 label=⚡ 
 interval=30
 
