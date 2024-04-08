@@ -3,4 +3,5 @@ if [ $# -eq 0 ]; then
     echo "Usage: $0 <file_name>"
     exit 1
 fi
-cp ~/Downloads/git_cloned/bash_utils/template/template.tex $1.tex
+cp ~/Downloads/git_cloned/bash_utils/template/Margin.docx $1.docx
+
